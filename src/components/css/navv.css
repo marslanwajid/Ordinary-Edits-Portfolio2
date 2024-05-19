@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/sans');
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(254,252,243,255);
+    height: 10vh;
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    font-family: 'Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    position:fixed;
+    top: 0; /* add this line */
+    width: 100%; /* add this line */
+    z-index: 1; /* add this line */
+    
+}
+
+
+
+.others{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 3vw;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li:nth-child(3){
+    margin-right: 37vw;
+}
+
+#navitem-left, #homee{
+    letter-spacing: 3px;
+}
+

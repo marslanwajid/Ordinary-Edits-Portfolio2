@@ -1,0 +1,153 @@
+body{
+    color: rgba(119,147,152,255);
+    overflow-x: hidden;
+    background-color: rgba(254,252,243,255);
+    scroll-behavior: smooth;
+
+}
+a{
+    color: rgba(119,147,152,255);
+    text-decoration: none;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+}
+
+
+
+.contentt1{
+    width: 100%;
+    /* margin-top: 9.8vh; */
+    background-color: rgba(254,252,243,255);;
+}
+
+.contentt2{
+    
+        width: 100%;
+        background-color: rgba(254,252,243,255);
+    
+        .button2{
+            /* padding: 15px; */
+            margin-top: -8vh; 
+            margin-left: 15rem;
+            
+        }
+        
+        .carousel2{
+            margin-top: 5vh;
+            display: none;
+        }
+}
+
+.contentt3{
+    
+        width: 100%;
+        background-color: rgba(254,252,243,255);
+    
+        .button3{
+            /* padding: 15px; */
+            margin-top: -8vh; 
+            margin-left: 58rem;
+            
+        }
+        
+        .carousel3{
+            margin-top: 5vh;
+            display: none;
+        }
+}
+
+.contentt4{
+    
+        width: 100%;
+        background-color: rgba(254,252,243,255);
+    
+        .button4{
+            /* padding: 15px; */
+            margin-top: -8vh; 
+            margin-left: 15rem;
+            
+        }
+        
+        .carousel4{
+            margin-top: 5vh;
+            display: none;
+        }
+}
+.contentt5{
+    
+        width: 100%;
+        background-color: rgba(254,252,243,255);
+    
+        .button5{
+            /* padding: 15px; */
+            margin-top: -8vh; 
+            margin-left: 58rem;
+            
+        }
+        
+        .carousel5{
+            margin-top: 5vh;
+            display: none;
+        }
+}
+
+
+
+@media only screen and (max-width:786px){
+   .body{
+    overflow-y: hidden;
+   }
+   .contentt2{
+
+       .carousel2{
+        display: none;
+       }
+       .click2{
+        display: none;
+       }
+   }
+   .contentt3{
+
+       .carousel3{
+        display: none;
+       }
+       .click3{
+        display: none;
+       }
+   }
+
+   .contentt4{
+
+       .carousel4{
+        display: none;
+       }
+       .click4{
+        display: none;
+       }
+   }
+
+   .contentt5{
+
+       .carousel5{
+        display: none;
+       }
+       .click5{
+        display: none;
+       }
+   }
+   .contentt6{
+    display: none;
+   }
+   .footerr{
+    margin-top: 55vh;
+   }
+}
+

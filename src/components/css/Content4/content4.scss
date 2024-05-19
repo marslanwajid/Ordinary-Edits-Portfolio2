@@ -1,0 +1,56 @@
+.main4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    height: 100vh;
+    width: 100%;
+    margin-top: 2.3vh;
+    
+  }
+  
+  .left4{
+    background-image: url("/images/13.jpg");
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .right4{
+    place-self: center;
+    text-align: center;
+  }
+  
+  .pics{
+    display: none;
+  }
+  
+  
+  @media only screen and (max-width:786px){
+    .main4{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+    }
+    .left4{
+      display: none;
+    }
+    .right4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -30vh;
+        
+    }
+    .pics{
+      
+      display: grid;
+      grid-template-columns: auto  auto;
+      grid-template-rows: auto auto  ;
+
+      img{
+       object-fit: contain;
+     }
+    }
+  }
